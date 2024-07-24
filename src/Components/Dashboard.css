@@ -1,0 +1,74 @@
+.dashboard {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .portfolio-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .portfolio-form button:hover {
+    background-color: #004aad;
+  }
+  
+  .portfolio-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .portfolio-item div {
+    margin: 0 10px;
+  }
+  
+  .portfolio-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e57373;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .portfolio-item button:hover {
+    background-color: #d32f2f;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
